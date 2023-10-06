@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load tree_menu %}
+
+{% block title %} Index Page {% endblock %}
+
+
+{% block content %}
+
+{% draw_menu 'one' %}
+
+{% draw_menu 'two' %}
+
+{% draw_menu 'three' %}
+
+{% endblock %}
